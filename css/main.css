@@ -1,0 +1,118 @@
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-image: url(/assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 340px;
+    border-radius: 7px;
+    float: right;
+    box-shadow: 0 4px 6px rgba(89, 157, 213, .2);
+    transition: all .3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 15px rgba(89, 169, 235, 0.797);
+}
+
+.first-part {
+    margin-top: 175px;
+    margin-right: 550px;
+    margin-left: 550px;
+}
+
+.first-part h1 {
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.first-part p {
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.download-btn a {
+    padding: 5px;
+    width: 30px;
+    font-size: 20px;
+    background-color: #599dd5;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+.download-btn a:hover {
+    color: #fff;
+    background-color: #7fabd2;
+}
+
+.more-info-btn a {
+    padding: 5px;
+    width: 30px;
+    font-size: 20px;
+    background-color: #585858;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 205px;
+}
+
+.more-info-btn a:hover {
+    color: #fff;
+    background-color: #7d7c7c;
+}
+
+.second-part {
+    margin-top: 175px;
+    margin-right: 550px;
+}
+
+.second-part h1 {
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.second-part p {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(89, 157, 213, .2);
+    transition: all .3s ease-in-out;
+    margin-bottom: 50px;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 15px rgba(89, 169, 235, 0.797);
+}
